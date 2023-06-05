@@ -1,0 +1,50 @@
+USUARIOS
+{
+    "username": "tavo",
+    "email": "gustavo@gmail.com",
+    "password": "lñkjhgs"
+}
+{
+    "username": "Mariano",
+    "email": "mariano5623@gmail.com",
+    "password": "lñkjhgs"
+}
+{
+    "username": "codevarsan",
+    "email": "codevarsan@gmail.com",
+    "password": "lñkjhgs"
+}
+{
+    "username": "isa",
+    "email": "isabel@gmail.com",
+    "password": "lñkjhgs"
+}
+
+CATEGORIAS
+INSERT INTO categories (category) VALUES ('Hogar'), ('Estudio'), ('Banco'), ('Auto'), ('Trabajo'), ('Deporte');
+
+TODOS
+{
+    "title": "Mecanico",
+    "description": "Llevar auto al mecanico",
+    "user_id": 1,
+    "category_id": 4
+}
+{
+    "title": "ir al banco",
+    "description": "resolver asunto con la tarjeta",
+    "user_id": 1,
+    "category_id": 3
+}
+{
+    "title": "ir al gimnasio",
+    "description": "realizar rutina de ejercicios de lunes a viernes",
+    "user_id": 2,
+    "category_id": 6
+}
+{
+    "title": "repasar clases",
+    "description": "repaso semanal de matemáticas",
+    "user_id": 2,
+    "category_id": 2
+}
